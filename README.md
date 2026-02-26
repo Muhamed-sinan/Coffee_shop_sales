@@ -16,7 +16,7 @@ The dashboard transforms raw transactional data into meaningful business insight
 
 ## 🖼 Dashboard Preview
 
-![Dashboard Preview](coffee shop sales.png)
+![Dashboard Preview](https://github.com/Muhamed-sinan/Coffee_shop_sales/blob/main/coffee%20shop%20sales.png)
 
 ---
 
