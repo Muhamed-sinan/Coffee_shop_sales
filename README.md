@@ -1,223 +1,195 @@
-☕ Coffee Shop Sales Analysis Dashboard (Excel Project)
-📊 Project Overview
+# ☕ Coffee Shop Sales Analysis Dashboard (Excel Project)
 
-This project analyzes coffee shop sales data using Microsoft Excel.
-The dashboard provides clear business insights into sales performance, customer behavior, product trends, and store comparisons.
+## 📊 Project Overview
 
-The goal of this project is to transform raw transactional data into meaningful insights using:
+This project analyzes coffee shop sales data using Microsoft Excel.  
+The dashboard transforms raw transactional data into meaningful business insights using:
 
-Pivot Tables
+- Pivot Tables  
+- Power Query  
+- Data Cleaning  
+- Data Modeling  
+- KPI Cards  
+- Interactive Dashboard Design  
 
-Power Query
+---
 
-Data Cleaning
+## 🖼 Dashboard Preview
 
-Data Modeling
+![Dashboard Preview](dashboard_screenshot.png)
 
-KPI Cards
+---
 
-Interactive Dashboard Design
+## 🎯 Business Questions Answered
 
-🖼 Dashboard Preview
-<img src="dashboard_screenshot.png" width="100%">
-🎯 Business Questions Answered
-1️⃣ How do sales vary by day of the week and hour of the day?
+### 1️⃣ How do sales vary by day of the week and hour of the day?
 
-Sales are highest during morning hours (around 8 AM – 10 AM).
+- Sales are highest during morning hours (around **8 AM – 10 AM**).
+- Activity gradually decreases after evening hours.
+- Weekdays show consistent performance.
+- Friday shows slightly higher activity compared to other weekdays.
+- Saturday shows relatively lower sales.
 
-Activity gradually decreases after evening hours.
+**Insight:** Morning hours are the primary revenue-driving time.
 
-Weekdays show consistent performance, with slightly higher traffic on Friday.
+---
 
-Saturday shows comparatively lower sales than peak weekdays.
-
-📌 Insight: Morning hours are peak revenue drivers.
-
-2️⃣ Are there any peak times for sales activity?
+### 2️⃣ Are there any peak times for sales activity?
 
 Yes.
 
-Peak hours: 8 AM to 10 AM
+- Peak Hours: **8 AM – 10 AM**
+- Peak Day: **Friday**
+- Morning rush contributes significantly to total revenue.
 
-Peak day: Friday
+**Business Suggestion:**
+- Increase staffing during morning hours.
+- Introduce breakfast combo offers.
 
-Morning rush contributes significantly to total revenue.
+---
 
-📌 Business Suggestion:
+### 3️⃣ What is the total sales revenue for each month?
 
-Increase staff during morning rush.
+The dashboard allows dynamic month-wise filtering.
 
-Promote breakfast combo offers.
+Example (current selection):
 
-3️⃣ What is the total sales revenue for each month?
+- Total Sales: **$698,812.33**
+- Total Footfall: **149,116**
+- Average Bill per Person: **$4.69**
+- Average Orders per Person: **1.44**
 
-The dashboard allows month-wise filtering.
+Monthly analysis helps identify seasonal trends and promotional impact.
 
-Example (From current view):
+---
 
-Total Sales: $698,812.33
-
-Total Footfall: 149,116 customers
-
-📌 Insight:
-Monthly trends help identify seasonal performance and promotional effectiveness.
-
-4️⃣ How do sales vary across different store locations?
+### 4️⃣ How do sales vary across different store locations?
 
 Store Locations Analyzed:
 
-Astoria
+- Astoria  
+- Hell’s Kitchen  
+- Lower Manhattan  
 
-Hell’s Kitchen
+**Findings:**
 
-Lower Manhattan
+- Hell’s Kitchen generates slightly higher revenue.
+- All locations show similar transaction volumes.
+- Revenue differences are influenced by order value.
 
-Findings:
+---
 
-Hell’s Kitchen generates slightly higher revenue.
+### 5️⃣ What is the average price per order/person?
 
-All three locations show similar transaction volume.
+- Average Bill per Person: **$4.69**
+- Average Orders per Person: **1.44**
 
-Revenue differences are influenced by order value.
+**Insight:**  
+Customers typically purchase 1–2 items per visit.
 
-📌 Insight:
-Location performance is relatively balanced with minor variation.
+**Opportunity:**  
+Bundle offers could increase average order value.
 
-5️⃣ What is the average price per order/person?
+---
 
-Average Bill per Person: $4.69
+### 6️⃣ Which products are best-selling in terms of quantity and revenue?
 
-Average Orders per Person: 1.44
+Top revenue-generating products:
 
-📌 Insight:
-Customers typically buy 1–2 items per visit.
+- Barista Espresso  
+- Brewed Chai Tea  
+- Hot Chocolate  
+- Gourmet Brewed Coffee  
 
-Business Opportunity:
-
-Bundle offers could increase order value.
-
-6️⃣ Which products are the best-selling (Quantity & Revenue)?
-
-Top Revenue Generators:
-
-Barista Espresso
-
-Brewed Chai Tea
-
-Hot Chocolate
-
-Gourmet Brewed Coffee
-
-📌 Insight:
+**Insight:**  
 Espresso-based beverages dominate revenue contribution.
 
-7️⃣ How do sales vary by product category and type?
+---
 
-Category Contribution (Approximate):
+### 7️⃣ How do sales vary by product category and type?
 
-Coffee → ~39% (Highest contributor)
+Category Contribution (approx.):
 
-Flavours → ~28%
+- Coffee → ~39%
+- Flavours → ~28%
+- Bakery → ~12%
+- Drinking Chocolate → ~10%
+- Others → Smaller share
 
-Bakery → ~12%
-
-Drinking Chocolate → ~10%
-
-Others → Smaller share
-
-📌 Insight:
+**Insight:**  
 Coffee category is the primary revenue driver.
 
-Business Recommendation:
+**Recommendation:**
+- Expand coffee product variants.
+- Cross-sell bakery items with beverages.
 
-Expand coffee variants.
+---
 
-Cross-sell bakery with coffee.
+## 📈 Key KPIs Displayed
 
-📈 Key KPIs Displayed
+- Total Sales Revenue  
+- Total Footfall  
+- Average Bill per Person  
+- Average Orders per Person  
+- Category Sales Distribution  
+- Size Distribution  
+- Location-wise Comparison  
+- Hourly Sales Trend  
+- Weekday Sales Trend  
 
-✅ Total Sales Revenue
+---
 
-✅ Total Footfall
+## 🛠 Tools & Skills Used
 
-✅ Average Bill per Person
+- Microsoft Excel  
+- Pivot Tables  
+- Power Query  
+- Data Cleaning  
+- Data Visualization  
+- KPI Dashboard Design  
+- Business Insight Generation  
 
-✅ Average Orders per Person
+---
 
-✅ Category Sales Distribution
-
-✅ Size Distribution
-
-✅ Location-wise Comparison
-
-✅ Hourly Sales Trend
-
-✅ Weekday Sales Trend
-
-🛠 Tools & Skills Used
-
-Microsoft Excel
-
-Pivot Tables
-
-Power Query
-
-Data Cleaning
-
-Data Visualization
-
-KPI Dashboard Design
-
-Business Insight Generation
-
-📂 Dataset Features
+## 📂 Dataset Features
 
 The dataset includes:
 
-Order ID
+- Order ID  
+- Order Date  
+- Store Location  
+- Product Category  
+- Product Type  
+- Product Size  
+- Quantity  
+- Unit Price  
+- Total Bill  
 
-Order Date
+---
 
-Store Location
-
-Product Category
-
-Product Type
-
-Product Size
-
-Quantity
-
-Unit Price
-
-Total Bill
-
-💡 Business Impact
+## 💡 Business Impact
 
 This dashboard helps management to:
 
-Identify peak hours for staffing decisions
+- Identify peak hours for staffing decisions  
+- Optimize product inventory  
+- Compare store performance  
+- Improve marketing strategies  
+- Increase average order value  
 
-Optimize product inventory
+---
 
-Compare store performance
+## 🚀 Future Improvements
 
-Improve marketing strategy
+- Profit Margin Analysis  
+- Monthly Sales Forecasting  
+- Customer Segmentation  
+- Power BI Version of Dashboard  
 
-Increase average order value
+---
 
-🚀 Future Improvements
+## 👤 Author
 
-Add Profit Margin Analysis
-
-Forecast Monthly Sales
-
-Customer Segmentation
-
-Power BI Version of Dashboard
-
-👤 Author
-
-Muhammed Sinan
-Aspiring Data Analyst / Data Scientist
+**Muhammed Sinan**  
+Aspiring Data Analyst / Data Scientist  
 Focused on building real-world Excel & Business Intelligence projects.
